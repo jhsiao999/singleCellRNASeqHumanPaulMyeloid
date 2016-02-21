@@ -1,5 +1,5 @@
 \docType{data}
-\name{leng2015}
+\name{HumanLengESC}
 \alias{leng2015.rda}
 \alias{HumanESC}
 \title{Leng et al., 2015 Human ESC data}
