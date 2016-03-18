@@ -1,7 +1,8 @@
 \docType{data}
 \name{HumanLengESC}
-\alias{leng2015.rda}
+\alias{HumanLengESC.rda}
 \alias{HumanESC}
+\alias{ESC}
 \title{Leng et al., 2015 Human ESC data}
 \description{
 TBA
@@ -12,25 +13,18 @@ TBA
   by sample matrix. \code{phenoData} slot contains sample information 
   as described below. \code{featureData} slot contains row information
   which are usually ensemebl gene ID or gene symbols.
-  \describe{ 
-  \item{\code{}:}{The
-  CEL filename in the Gene Expression Omnibus (GEO)}
-  \item{\code{DB_ID}:}{The GSM sample id in GEO}
-  \item{\code{ExperimentID}:}{The GSE experiment id in GEO}
-  \item{\code{Tissue}:}{Tissue type, obtained from the gene
-  expression barcode annotation}
-  \item{\code{SubType}:}{Sample sub-type, obtained from the
-  gene expression barcode annotation}
-  \item{\code{ClinicalGroup}:}{Clinical sample annotation,
-  obtained from the gene expression barcode annotation}
-  \item{\code{Status}:}{Normal (0) or Cancer (1) indicator}
-  }
 }
 \examples{
-#data(singleCellData)
-#assay(singleCellData)
+data(HumanLengESC)
+#access counts
+exprs(HumanLengESC)
+#access phenotype informaiton
+pData(HumanLengESC)
 }
 \references{
+Ning Leng, Li-fang Chu, Chris Barry, Yuan Li, Jeea Choi, Xiaomao Li, Peng Jian, 
+Ron M Steward, James A Thomson, & Christian Kendziorski. Oscope identifies 
+oscillatory genes in unsynchronized single-cell RNA-seq experiments. Nature 12:10, 947-950 (2015) doi:10.1038/nmeth.3549
 }
 \seealso{
   \code{\link{ExpressionSet}} for the class definition
