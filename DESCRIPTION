@@ -4,9 +4,7 @@ Author: Chiaowen Joyce Hsiao <joyce.hsiao1@gmail.com>
 Version: 0.99.0
 License: Artistic-2.0
 Title: single-cell RNA-seq data of Human Embryonic Stem cells in Leng et al., 2015
-Description: This package stores Leng et al., 2015 in an ExpressionSet object. Citation: Ning Leng, Li-fang Chu, Chris Barry, Yuan Li, Jeea Choi, Xiaomao Li, Peng Jian, 
-Ron M Steward, James A Thomson, & Christian Kendziorski. Oscope identifies 
-oscillatory genes in unsynchronized single-cell RNA-seq experiments. Nature 12:10, 947-950 (2015) doi:10.1038/nmeth.3549
+Description: This package stores Leng et al., 2015 in an ExpressionSet object. Citation: Ning Leng, Li-fang Chu, Chris Barry, Yuan Li, Jeea Choi, Xiaomao Li, Peng Jian, Ron M Steward, James A Thomson, & Christian Kendziorski. Oscope identifies oscillatory genes in unsynchronized single-cell RNA-seq experiments. Nature 12:10, 947-950 (2015) doi:10.1038/nmeth.3549
 LazyData: yes
 Depends:
     R (>= 2.10), Biobase (>= 2.26.0)
