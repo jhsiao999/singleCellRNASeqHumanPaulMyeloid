@@ -1,13 +1,13 @@
-# singleCellRNASeqHumanLengESC
+# singleCellRNASeqHumanPaulMyeloid
 
-Leng et al 2015 RNA-seq data, check the [paper](http://www.nature.com/nbt/journal/v33/n2/full/nbt.3102.html).
+Paul et al 2015 RNA-seq data, check the [paper](doi: 10.1016/j.cell.2015.11.013)
 
 To load the data 
 
 ```
-library(singleCellRNASeqHumanLengESC)
-counts <- exprs(HumanLengESC)
-meta_data <- pData(HumanLengESC)
+library(singleCellRNASeqHumanPaulMyeloid)
+counts <- exprs(HumanPaulMyeloid)
+meta_data <- pData(HumanPaulMyeloid)
 gene_names <- rownames(counts)
 
 ```
